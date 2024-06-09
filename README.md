@@ -2,82 +2,66 @@
 
 # E-commerce Forecasting: ML-Driven Merchant Trends
 
-## Proje Tanımı
+## Project Description
 
-Bu proje, e-ticaret verilerini kullanarak makine öğrenimi tabanlı ticaret trendlerini tahmin etmeyi amaçlamaktadır. Proje, satış verilerini analiz ederek gelecekteki satış trendlerini öngörmeye yardımcı olacak modeller geliştirmeyi hedeflemektedir.
+This project focuses on leveraging machine learning techniques to forecast merchant trends in the e-commerce sector. By analyzing historical sales data, we aim to predict future sales trends, enabling businesses to make data-driven decisions. The project involves data preprocessing, model training, and evaluation, followed by forecasting and visualization of the results. The primary goal is to provide a comprehensive solution for trend analysis and forecasting in e-commerce using advanced machine learning algorithms.
 
-## İçindekiler
+## Table of Contents
 
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Veri Seti](#veri-seti)
-- [Modeller](#modeller)
-- [Sonuçlar](#sonuçlar)
-- [Katkıda Bulunanlar](#katkıda-bulunanlar)
-- [Lisans](#lisans)
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Models](#models)
+- [Results](#results)
+- [License](#license)
 
-## Kurulum
+## Installation
 
-Bu projeyi çalıştırmak için aşağıdaki adımları izleyin:
+To run this project, follow these steps:
 
-1. Depoyu klonlayın:
+1. Clone the repository:
     ```bash
-    git clone https://github.com/kullaniciadi/proje-adi.git
-    cd proje-adi
+    git clone https://github.com/username/project-name.git
+    cd project-name
     ```
 
-2. Gerekli paketleri yükleyin:
+2. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Notebook'u çalıştırın:
+3. Run the notebook:
     ```bash
     jupyter notebook E-commerce-Forecasting-ML-Driven-Merchant-Trends.ipynb
     ```
 
-## Kullanım
+## Usage
 
-Proje notebook'unda aşağıdaki adımlar izlenmiştir:
+The notebook includes the following steps:
 
-1. **Veri Yükleme:** Veriler, Kaggle'dan alınan veri seti kullanılarak yüklenmiştir.
-2. **Veri Ön İşleme:** Eksik verilerin doldurulması, veri türlerinin dönüştürülmesi ve normalizasyon gibi adımlar uygulanmıştır.
-3. **Model Eğitim:** Çeşitli makine öğrenimi algoritmaları kullanılarak modeller eğitilmiştir.
-4. **Tahmin ve Değerlendirme:** Eğitilen modeller kullanılarak tahminler yapılmış ve modellerin performansı değerlendirilmiştir.
+1. **Data Loading:** Load the dataset from Kaggle.
+2. **Data Preprocessing:** Handle missing values, convert data types, and normalize the data.
+3. **Model Training:** Train various machine learning models.
+4. **Prediction and Evaluation:** Make predictions and evaluate model performance.
 
-## Veri Seti
+## Models
 
-Bu projede kullanılan veri seti [Kaggle](https://www.kaggle.com) platformundan indirilmiştir. Veri seti, e-ticaret satış verilerini içermektedir ve aşağıdaki bilgilerden oluşmaktadır:
+The following models have been trained in this project:
 
-- Tarih
-- Ürün Kategorisi
-- Satış Miktarı
-- Fiyat
-- vb.
-
-## Modeller
-
-Proje kapsamında aşağıdaki modeller eğitilmiştir:
-
-- Lineer Regresyon
-- Karar Ağaçları
-- Rastgele Ormanlar
+- Linear Regression
+- Decision Trees
+- Random Forests
 - XGBoost
 
-## Sonuçlar
+## Results
 
-Model performansları, doğruluk, hata oranı ve R2 skoru gibi metrikler kullanılarak değerlendirilmiştir. En iyi performansı gösteren model, tahmin sonuçları ile birlikte detaylı olarak raporlanmıştır.
+The performance of the models has been evaluated using metrics such as accuracy, error rate, and R2 score. The best-performing model has been reported with detailed predictions and visualizations.
 
-## Katkıda Bulunanlar
+## License
 
-- Mehmet Işık - [LinkedIn](https://www.linkedin.com/in/mehmetisik)
-- Projeye katkıda bulunmak için lütfen pull request gönderin.
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ---
 
-Eğer başka bir ekleme veya değişiklik yapmak isterseniz, lütfen bana bildirin!
-``` &#8203;:citation[oaicite:0]{index=0}&#8203;
+If you need any additional information or changes, please let me know!
+
