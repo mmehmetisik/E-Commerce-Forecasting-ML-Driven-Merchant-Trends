@@ -4,12 +4,6 @@
 
 This project focuses on leveraging machine learning techniques to forecast merchant trends in the e-commerce sector. By analyzing historical sales data, we aim to predict future sales trends, enabling businesses to make data-driven decisions. The project involves data preprocessing, model training, and evaluation, followed by forecasting and visualization of the results. The primary goal is to provide a comprehensive solution for trend analysis and forecasting in e-commerce using advanced machine learning algorithms.
 
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Results](#results)
-- [License](#license)
-
 ## Models
 
 The following models have been trained in this project:
